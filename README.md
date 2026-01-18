@@ -1,6 +1,6 @@
-# Fachhe-25: Gesture Control Hub
+# Gesture-controlled-game-25: Gesture Control Hub
 
-Welcome to **Fachhe-25**, a repository dedicated to computer vision-based gesture control systems. This project explores low-latency interaction for gaming using **Python**, **OpenCV**, and **MediaPipe**.
+Welcome to **Gesture-controlled-game-25**, a repository dedicated to computer vision-based gesture control systems. This project explores low-latency interaction for gaming using **Python**, **OpenCV**, and **MediaPipe**.
 
 The repository contains two main projects:
 1.  **NFS:MW Gesture Controller**: A universal input injector designed for racing games like *Need for Speed: Most Wanted*.
