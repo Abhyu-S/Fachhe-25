@@ -8,11 +8,11 @@ The repository contains two main projects:
 
 ---
 
-## 🏎️ Project 1: NFS:MW Gesture Controller
+## Project 1: NFS:MW Gesture Controller
 
 A robust, low-latency computer vision controller designed to replace your keyboard while driving. It maps specific hand configurations to key presses using `pydirectinput` (Windows) or `pynput` (Linux).
 
-### ✨ Features
+### Features
 -   **Cross-Platform**: Automatically detects OS and selects the correct input engine.
 -   **Zero-Copy Latency**: Uses threaded camera capture and input downscaling to minimize delay.
 -   **Resource Efficient**: Runs on MediaPipe "Lite" model complexity for maximum FPS on integrated graphics.
@@ -36,7 +36,7 @@ A robust, low-latency computer vision controller designed to replace your keyboa
 | **Left** | 🤟 **3 Fingers** | Reverse Left | `S` + `A` |
 | **Right** | 🤟 **3 Fingers** | Reverse Right | `S` + `D` |
 
-### 🚀 Usage
+### Usage
 1.  Navigate to the `NSF_MW` directory.
 2.  Run the optimized script:
     ```bash
@@ -46,17 +46,17 @@ A robust, low-latency computer vision controller designed to replace your keyboa
 
 ---
 
-## 🚗 Project 2: The Car Game (Pygame)
+## Project 2: The Car Game (Pygame)
 
 A standalone vertical scrolling racing game built with **Pygame**. It features an integrated hand-tracking thread that controls a car to dodge traffic and collect scores.
 
-### ✨ Features
+### Features
 -   **Gesture-Based Drifting**: Uses "OK Signs" for rapid lateral movement (dodging).
 -   **Dynamic Difficulty**: Traffic speed and spawn rates increase as your score goes up.
 -   **Calibration Mode**: Ensures the game doesn't start until you are ready.
 -   **High Score System**: Persists your best runs locally.
 
-### 🎮 Controls (Palm & Fist Logic)
+### Controls (Palm & Fist Logic)
 
 | Left Hand | Right Hand | Action | Description |
 | :---: | :---: | :--- | :--- |
@@ -67,7 +67,7 @@ A standalone vertical scrolling racing game built with **Pygame**. It features a
 | ✊ **Fist** | ✋ **Open Palm** | **Turn Right** | Standard steering to the Right. |
 | ✊ **Fist** | ✊ **Fist** | **Brake / Calibrate** | Slows down or starts calibration. |
 
-### 🚀 Usage
+### Usage
 1.  Navigate to the `The Car Game` directory.
 2.  Ensure the `assets` folder contains the required images (`car.png`, `road_X.png`, `traffic_car_X.png`).
 3.  Run the game script (or the Jupyter Notebook):
@@ -78,7 +78,7 @@ A standalone vertical scrolling racing game built with **Pygame**. It features a
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 You need **Python 3.10+** installed.
